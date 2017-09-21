@@ -1,2 +1,2 @@
 # aboutme
-Thhis is html page
+This is html page
