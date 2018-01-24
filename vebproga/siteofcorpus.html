@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>НКРЯ</title>
+        <link rel="syteofcorpus" href="styleofcorpus.css">
+    </head>
+<body>
+      
+         <div class="header">НКРЯ</div>
+       <div class="container">
+         <div class="row">
+         <div class="column1 block"> <span align="center">Меню</span>
+<ul class="menu">
+  <ul class="hat">
+    <li>
+<a href="http://ruscorpora.ru/index.html">главная</a>
+  </li>        
+  <li> <a href="http://ruscorpora.ru/corpora-usage.html">использование корпуса</a>
+  </li>
+  </ul>
+<ul class="gramms">
+  <li><a href="http://ruscorpora.ru/search-ngrams_2.html">основной</a>
+  </li>
+            <li><a href="http://ruscorpora.ru/search-ngrams_2.html">биграммы</a></li>
+                  <li><a href="http://ruscorpora.ru/search-ngrams_3.html">триграммы</a></li>
+            <li><a href="http://ruscorpora.ru/search-ngrams_4.html">4-граммы</a></li>
+            <li><a href="http://ruscorpora.ru/search-ngrams_5.html">5-граммы</a></li>
+           </ul>
+           <ul class="corpustypes">
+             <li><a href="http://ruscorpora.ru/search-syntax.html">синтаксический</a></li>
+             <li><a href="http://ruscorpora.ru/search-paper.html">газетный</a>
+             <ul class="submenu">
+               <li> <a href="http://ruscorpora.ru/search-paper.html">СМИ 2000-х гг </a> </li>
+               <li> <a href="http://ruscorpora.ru/search-regional.html"> региональный</a> </li>
+              
+             </ul>
+             </li>
+             <li><a href="http://ruscorpora.ru/search-para-en.html">параллельный</a></li>
+             <li><a href="http://ruscorpora.ru/search-school.html">обучающий</a></li>
+             <li><a href="http://ruscorpora.ru/search-dialect.html">диалектный</a></li>
+             <li><a href="http://ruscorpora.ru/search-poetic.html">поэтический</a></li>
+             <li><a href="http://ruscorpora.ru/search-spoken.html">устный</a></li>
+             <li><a href="http://ruscorpora.ru/search-accent.html">акцентологический</a></li>
+             <li><a href="http://ruscorpora.ru/search-murco.html">мультимедийный</a></li>
+             <li><a href="http://ruscorpora.ru/search-multiparc.html">мультипарк</a></li>
+             <li><a href="http://ruscorpora.ru/search-old_rus.html">исторический</a></li>
+           </ul>
+         </div>
+            <div class="column2 block">
+              <p>Поиск точных форм </p>
+      <form action="/search" method="get" target="_blank">
+        <input type="text" name="search"  placeholder="Введите запрос" class="inputting">
+        <div><input type="submit" value="Найти" class="my_button l"> <input type="reset" value="Очистить" class="my_button r"></div>
+         
+</form>
+              </div>
+    
+           <div class="column3 block"><p>Лексико-Грамматический поиск</p>
+             <table>
+               <tr>
+                 <td>  Cлово </td>
+                 <td> <form action="/search" method="get" target="_blank">
+        <input type="text" name="search" placeholder="Введите запрос" class="inputting">
+                   <div><input type="submit" value="Найти"class="my_button l"> <input type="reset" value="Очистить" class="my_button r"></div>
+                 
+         
+</form>
+                     </td>
+               </tr>
+               <tr>
+                 <td>Грамматические признаки</td>
+                   <td> <ul class="table-menu">
+                     <li type="circle"> <a href="#1"><p class="m">часть речи </p> </a></li>
+                     <li type= "circle"><a href="#2"><p class="m">падеж</p></a> 
+                       <ul class="sub-menu">
+                         <label>
+                <input type="radio" name="question-one" value="nom"><span class="u"> именительный</span> 
+                         </label>
+                            <br>
+                          <label>
+                <input type="radio" name="question-two" value="voc"><span class="u">звательный</span>
+                         </label>
+                         <br>
+                         <label>
+                           <input type="radio" name="question-three" value="gen"><span class="u">родительный</span> </label> <br>
+                            <label><input type="radio" name="question-four" value="gen2"><span class="u">родительный 2</span></label><br>
+                          <label><input type="radio" name="question-five" value="dat"><span class="u">дательный</span></label> <br>
+                         <label><input type="radio" name="question-six" value="acc"><span class="u">винительный</span></label> <br>
+                         <label><input type="radio" name="question-seven" value="acc2"><span class="u">винительный2</span></label><br>
+                            <label><input type="radio" name="question-eight" value="abl"><span class="u">предложный</span></label><br>
+                            <label><input type="radio" name="question-nine" value="abl2"><span class="u">предложный2</span></label><br>
+                            <label><input type="radio" name="question-ten" value="instr"><span class="u">творительный</span></label> <br>
+                            <label><input type="radio" name="question-elf" value="count"><span class="u">счетная форма</span></label> <br>
+                </ul>
+             
+                              <li type="circle"><a href="#3"><p class="m"><p class="m">наклонение</p></a></li>
+                     </ul> 
+                  </td>
+               </tr>
+               <tr>
+                 <td>Дополнительные признаки</td>
+                 <td></td>
+               </tr>
+                     </table>
+                 </div>
+                </div>
+<div class="row">
+  <div class="block">
+  <span class= "footer"><br> Полезная информация</span>
+ </div>
+  <div class="column1 block"> 
+    <h3><a href="http://ruscorpora.ru/instruction-main.pdf">инструкция</a></h3> 
+    <h3><a href="http://ruscorpora.ru/mycorpora-main.html">задать подкорпус</a></h3>                       <h3><a href="http://ruscorpora.ru/en/search-main.html">English</a></h3>  </div>
+         </body>
+  </html>
